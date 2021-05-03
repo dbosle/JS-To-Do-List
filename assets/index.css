@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url("./image.jpg")
+}
+
+
+.formCSS {
+    height: 100px;
+}
+
+.formDiv{
+    height: 200px;
+    padding-top:100px;
+}
+
+.inputField{
+    padding: 10px;
+    height: 30px;
+    width: 620px;
+    float: left;
+}
+
+.centerCss{
+    margin: auto;
+    width: 700px;
+    padding: 15px;
+    background-color: rgba(245,245,220, 0.7);
+    border-radius: 5px;
+}
+
+
+.holderDiv{
+    background-color: red;
+}
+
+.title{
+    margin-bottom: 20px;
+
+}
+
+.addButton{
+    float: left;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.removeButton{
+    float: left;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.todo{
+    overflow: hidden;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.todoText{
+    padding: 10px;
+    overflow: auto;
+    float: left;
+    width : 620px;
+    font-family: Tahoma;
+    line-height: 20px;
+}
+
+
